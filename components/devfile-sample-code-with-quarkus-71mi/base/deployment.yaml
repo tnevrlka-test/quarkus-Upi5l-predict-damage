@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-code-with-quarkus-71mi
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-yzsu-tenant/quarkus/devfile-sample-code-with-quarkus-71mi@sha256:dc7e69c93de49acafe066dc41587e7fbe21e5d600b89f53f3c5be070b77008c3
         name: my-java-quarkus
         ports:
         - containerPort: 8081
